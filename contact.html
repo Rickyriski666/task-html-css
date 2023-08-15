@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/style.css" />
-    <title>Resume</title>
+    <title>Contact</title>
   </head>
   <body class="bg-background">
     <div class="container mx-auto">
@@ -26,7 +26,7 @@
       <div class="mx-8">
         <div class="flex flex-col items-center md:flex-row">
           <!-- profile -->
-          <div class="bg-white rounded-2xl p-8 mx-5 w-full max-w-sm">
+          <aside class="bg-white rounded-2xl p-8 mx-5 w-full max-w-sm">
             <div class="flex flex-col items-center mb-8">
               <div>
                 <img
@@ -117,11 +117,11 @@
                 </a>
               </div>
             </div>
-          </div>
+          </aside>
 
           <div class="mx-5">
             <!-- navbar -->
-            <div
+            <nav
               class="nav mx-auto w-[503px] bg-[#F2F7FC] border rounded-2xl py-3"
             >
               <div class="flex justify-center">
@@ -159,10 +159,10 @@
                   <p class="font-semibold text-sm">Contact</p>
                 </a>
               </div>
-            </div>
+            </nav>
 
             <!-- main -->
-            <div
+            <main
               class="px-20 py-6 bg-[#FFFFFF] rounded-3xl md:w-[820px] md:h-[720px]"
             >
               <div class="mx-auto max-w-4xl">
@@ -232,21 +232,30 @@
 
                 <div class="border-b-2 flex items-center mb-6">
                   <label for="" class="font-semibold mr-2">Name:</label>
-                  <input type="text" name="" id="" class="py-2 px-2 w-full" />
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="py-2 px-2 w-full"
+                  />
                 </div>
                 <div class="border-b-2 flex items-center mb-6">
                   <label for="" class="font-semibold mr-2">Email:</label>
-                  <input type="email" name="" id="" class="py-2 px-2 w-full" />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="py-2 px-2 w-full"
+                  />
                 </div>
                 <div class="border-b-2 flex items-center mb-6">
                   <label for="" class="font-semibold mr-2">Message:</label>
                   <textarea
-                    name=""
-                    id=""
+                    name="message"
+                    id="message"
                     rows="1"
                     class="py-2 px-2 w-full"
                   ></textarea>
-                  <!-- <input type="text" name="" id="" class="py-2 px-2 w-full" /> -->
                 </div>
 
                 <div class="">
@@ -256,7 +265,7 @@
                   />
                 </div>
               </form>
-            </div>
+            </main>
           </div>
         </div>
       </div>
